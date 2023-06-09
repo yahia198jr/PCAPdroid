@@ -33,11 +33,11 @@ import com.emanuelef.remote_capture.model.Prefs;
 import java.util.Objects;
 
 public class Socks5Settings extends PreferenceFragmentCompat {
-    private EditTextPreference mProxyIp = "127.0.0.1";
-    private EditTextPreference mProxyPort = 7777 ;
-    private EditTextPreference mUsername = "username";
-    private EditTextPreference mPassword = "username" ;
-    private SwitchPreference mSocks5AuthEnabled = true;
+    private EditTextPreference mProxyIp ;
+    private EditTextPreference mProxyPort ;
+    private EditTextPreference mUsername ;
+    private EditTextPreference mPassword ;
+    private SwitchPreference mSocks5AuthEnabled ;
 
     @Override
     public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
